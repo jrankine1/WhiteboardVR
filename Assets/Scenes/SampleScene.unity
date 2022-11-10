@@ -630,6 +630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1408776742}
   - component: {fileID: 1408776743}
+  - component: {fileID: 1408776744}
   m_Layer: 0
   m_Name: LeftHandPresence
   m_TagString: Untagged
@@ -667,6 +668,27 @@ MonoBehaviour:
   controllerCharacter: 256
   handModelPrefab: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b,
     type: 3}
+  handAnimator: {fileID: 1408776744}
+--- !u!95 &1408776744
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408776741}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f04e0f5b3e7d104198b89842c9021c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1630021829
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1630021830}
   - component: {fileID: 1630021831}
+  - component: {fileID: 1630021832}
   m_Layer: 0
   m_Name: RightHandPresence
   m_TagString: Untagged
@@ -714,6 +737,27 @@ MonoBehaviour:
   controllerCharacter: 512
   handModelPrefab: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364,
     type: 3}
+  handAnimator: {fileID: 1630021832}
+--- !u!95 &1630021832
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630021829}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: faac588dc4790504e98becdab775edb5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2000961528
 GameObject:
   m_ObjectHideFlags: 0
