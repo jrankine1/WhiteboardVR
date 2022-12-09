@@ -10,10 +10,14 @@ public class Whiteboard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        var r = GetComponent<Renderer>();
-        texture = new Texture2D((int)textureSize.x, (int)textureSize.y);
-        r.material.mainTexture = texture;
+        Reset();
     }
 
-    
+    public void Reset()
+    {
+        var r = GetComponent<Renderer>();
+       texture = new Texture2D((int)textureSize.x, (int)textureSize.y);
+        r.material.mainTexture = texture;
+
+    }
 }
